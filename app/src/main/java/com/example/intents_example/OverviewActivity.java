@@ -25,6 +25,6 @@ public class OverviewActivity extends AppCompatActivity {
         //Get newest String from Intent
         //Add to usernamesFakeDatabase
         //Refer to existing Linear Layout
-            //Create TextViews with content from usernamesFakeDatabase
+        //Create TextViews with content from usernamesFakeDatabase
     }
 }
