@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class OverviewActivity extends AppCompatActivity {
-    ArrayList<String> usernamesFakeDatabase = new ArrayList<>(
+    private ArrayList<String> usernamesFakeDatabase = new ArrayList<>(
             Arrays.asList("kitkat","vincent","soy")
     );
 
