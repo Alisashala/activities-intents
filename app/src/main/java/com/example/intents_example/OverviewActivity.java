@@ -3,6 +3,8 @@ package com.example.intents_example;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,6 +18,9 @@ public class OverviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_overview);
+
+        LinearLayout linearLayout = findViewById(R.id.overview);
+        TextView t = new TextView(getApplicationContext());
 
         //Get newest String from Intent
         //Add to usernamesFakeDatabase
