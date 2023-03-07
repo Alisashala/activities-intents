@@ -1,5 +1,6 @@
 package com.example.intents_example;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -24,6 +25,12 @@ public class RegistrationActivity extends AppCompatActivity {
 
         intentToApprovalActivity.putExtra("message",inputAsString);
 
-        startActivity(intentToApprovalActivity);
+        startActivityForResult(intentToApprovalActivity,1);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        System.out.println("Toelfmkrfm");
     }
 }

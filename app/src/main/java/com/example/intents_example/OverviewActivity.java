@@ -2,6 +2,7 @@ package com.example.intents_example;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,9 +23,6 @@ public class OverviewActivity extends AppCompatActivity {
         LinearLayout linearLayout = findViewById(R.id.overview);
         TextView t = new TextView(getApplicationContext());
 
-        //Get newest String from Intent
-        //Add to usernamesFakeDatabase
-        //Refer to existing Linear Layout
-        //Create TextViews with content from usernamesFakeDatabase
+
     }
 }
